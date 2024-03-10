@@ -25,11 +25,11 @@ int solution(){
         }
         else{
             if(!negative.empty()){
-                int first = negative.top();
-                if (first > temp){
+                int largest = negative.top();
+                if (largest > temp){
                     negative.pop();
                     negative.push(temp);
-                    health += first-temp;
+                    health += largest-temp;
                 }
             }
         }
