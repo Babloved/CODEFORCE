@@ -1,0 +1,3 @@
+A:/C++/CODEFORCE/cmake-build-debug/CMakeFiles/cmake-build-debug/CMakeFiles/simple_example.dir
+A:/C++/CODEFORCE/cmake-build-debug/CMakeFiles/cmake-build-debug/CMakeFiles/edit_cache.dir
+A:/C++/CODEFORCE/cmake-build-debug/CMakeFiles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
