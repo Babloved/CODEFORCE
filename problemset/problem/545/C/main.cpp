@@ -8,20 +8,14 @@ struct Tree{
     long long h=0;
     short drop=0;
 };
-
 int main(){
-
     int n = 0,passDistance = 0,d=0;
     cin>>n;
     vector<Tree> vTrees(n);
-
     for (int i = 0; i < n; ++i) {
         cin>>vTrees[i].x>>vTrees[i].h;
     }
-
     for (int i = 0,j=n-1; i < n ; ++i) {
-
-
         if (i == 0) {
             vTrees[i].drop = -1;
         }
@@ -42,7 +36,6 @@ int main(){
                 vTrees[i].drop = 0;
             }
         }
-
     }
     long long result = 0;
     for (int i = 0; i < n; ++i) {
@@ -53,7 +46,6 @@ int main(){
     cout << result;
     return 0;
 }
-
 /*
 4
 1 3
@@ -67,7 +59,4 @@ ________________
 19 3
 20 1
 wrong answer expected '4'
-
-
-
  * */
