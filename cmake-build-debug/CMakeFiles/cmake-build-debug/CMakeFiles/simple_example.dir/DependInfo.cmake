@@ -11,8 +11,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "A:/C++/CODEFORCE/problemset/problem/1336/A/main.cpp" "CMakeFiles/simple_example.dir/A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.obj" "gcc" "CMakeFiles/simple_example.dir/A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.obj.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
