@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion2024.1.3\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = A:\C++\CODEFORCE\cmake-build-debug\CMakeFiles
+CMAKE_SOURCE_DIR = E:\CODEFORCE\cmake-build-debug\CMakeFiles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = A:\C++\CODEFORCE\cmake-build-debug\CMakeFiles\cmake-build-debug
+CMAKE_BINARY_DIR = E:\CODEFORCE\cmake-build-debug\CMakeFiles\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = A:\C++\CODEFORCE\cmake-build-debug\CMakeFiles\cmake-build-deb
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start A:\C++\CODEFORCE\cmake-build-debug\CMakeFiles\cmake-build-debug\CMakeFiles A:\C++\CODEFORCE\cmake-build-debug\CMakeFiles\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CODEFORCE\cmake-build-debug\CMakeFiles\cmake-build-debug\CMakeFiles E:\CODEFORCE\cmake-build-debug\CMakeFiles\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start A:\C++\CODEFORCE\cmake-build-debug\CMakeFiles\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CODEFORCE\cmake-build-debug\CMakeFiles\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ simple_example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/build
 .PHONY : simple_example/fast
 
-A_/C++/CODEFORCE/problemset/problem/1336/A/main.obj: A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.obj
-.PHONY : A_/C++/CODEFORCE/problemset/problem/1336/A/main.obj
+E_/CODEFORCE/problemset/problem/1336/A/main.obj: E_/CODEFORCE/problemset/problem/1336/A/main.cpp.obj
+.PHONY : E_/CODEFORCE/problemset/problem/1336/A/main.obj
 
 # target to build an object file
-A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.obj
-.PHONY : A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.obj
+E_/CODEFORCE/problemset/problem/1336/A/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/E_/CODEFORCE/problemset/problem/1336/A/main.cpp.obj
+.PHONY : E_/CODEFORCE/problemset/problem/1336/A/main.cpp.obj
 
-A_/C++/CODEFORCE/problemset/problem/1336/A/main.i: A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.i
-.PHONY : A_/C++/CODEFORCE/problemset/problem/1336/A/main.i
+E_/CODEFORCE/problemset/problem/1336/A/main.i: E_/CODEFORCE/problemset/problem/1336/A/main.cpp.i
+.PHONY : E_/CODEFORCE/problemset/problem/1336/A/main.i
 
 # target to preprocess a source file
-A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.i
-.PHONY : A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.i
+E_/CODEFORCE/problemset/problem/1336/A/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/E_/CODEFORCE/problemset/problem/1336/A/main.cpp.i
+.PHONY : E_/CODEFORCE/problemset/problem/1336/A/main.cpp.i
 
-A_/C++/CODEFORCE/problemset/problem/1336/A/main.s: A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.s
-.PHONY : A_/C++/CODEFORCE/problemset/problem/1336/A/main.s
+E_/CODEFORCE/problemset/problem/1336/A/main.s: E_/CODEFORCE/problemset/problem/1336/A/main.cpp.s
+.PHONY : E_/CODEFORCE/problemset/problem/1336/A/main.s
 
 # target to generate assembly for a file
-A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.s
-.PHONY : A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.s
+E_/CODEFORCE/problemset/problem/1336/A/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/E_/CODEFORCE/problemset/problem/1336/A/main.cpp.s
+.PHONY : E_/CODEFORCE/problemset/problem/1336/A/main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... simple_example
-	@echo ... A_/C++/CODEFORCE/problemset/problem/1336/A/main.obj
-	@echo ... A_/C++/CODEFORCE/problemset/problem/1336/A/main.i
-	@echo ... A_/C++/CODEFORCE/problemset/problem/1336/A/main.s
+	@echo ... E_/CODEFORCE/problemset/problem/1336/A/main.obj
+	@echo ... E_/CODEFORCE/problemset/problem/1336/A/main.i
+	@echo ... E_/CODEFORCE/problemset/problem/1336/A/main.s
 .PHONY : help
 
 

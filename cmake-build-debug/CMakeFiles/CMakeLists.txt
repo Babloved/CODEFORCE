@@ -10,4 +10,4 @@ set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
 set(BUILD_SHARED_LIBS OFF)
 set(CMAKE_EXE_LINKER_FLAGS "-static")
 # Add executable target with source files listed in SOURCE_FILES variable
-add_executable(simple_example A:/C++/CODEFORCE/problemset/problem/1336/A/main.cpp)
+add_executable(simple_example E:/CODEFORCE/problemset/problem/1336/A/main.cpp)

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/simple_example.dir/A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.obj"
-  "CMakeFiles/simple_example.dir/A_/C++/CODEFORCE/problemset/problem/1336/A/main.cpp.obj.d"
+  "CMakeFiles/simple_example.dir/E_/CODEFORCE/problemset/problem/1336/A/main.cpp.obj"
+  "CMakeFiles/simple_example.dir/E_/CODEFORCE/problemset/problem/1336/A/main.cpp.obj.d"
   "libsimple_example.dll.a"
   "simple_example.exe"
   "simple_example.exe.manifest"

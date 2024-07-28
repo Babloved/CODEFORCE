@@ -17,7 +17,7 @@ int main(){
         cin>>a[i];
     }
     sort(a.rbegin(),a.rend());
-
+//fds
     int first=0,second=0;
     for (int i = 0; i < q; ++i) {
         cin>>first>>second;
